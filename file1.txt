@@ -26,3 +26,77 @@ s.close()
 
 ---------------------------------
 
+import socket
+s=socket.socket()
+host=socket.gethostname()
+port=12348
+
+s.connect((host,port))
+msg=input("Enter your message: ")
+s.send(msg.encode())
+message=s.recv(100)
+print(message)
+s.close()
+
+
+---------------------------------------
+
+import socket
+s=socket.socket()
+host=socket.gethostname()
+port=12348
+s.bind((host,port))
+s.listen(3)
+while True:
+    client,address = s.accept()
+    data=client.recv(100).decode()
+    print(data)
+    # print(client)
+    # print(address)
+    client.send(b"Thanks for connecting")
+
+--------------------------------------------
+
+
+import socket
+def server():
+    s=socket.socket()
+    host=socket.gethostname()
+    port=1993
+    s.bind((host,port))
+    s.listen(3)
+    client, address = s.accept()
+    while True:
+
+        data=client.recv(100).decode()
+        print(f"Client--> {data}")
+        a=input(" Server -->: ")
+        client.send(a.encode())
+
+server()
+
+
+---------------------------------------------
+
+import socket
+def client12():
+    s=socket.socket()
+    host=socket.gethostname()
+    port=1993
+
+    s.connect((host,port))
+    while True:
+
+            msg=input("Client --> : ")
+            if msg == 'bye':
+                s.send(msg.encode())
+                break
+            else:
+                s.send(msg.encode())
+                message=s.recv(100)
+                print(f"Server ---> {message}")
+    # s.close()
+
+client12()
+
+-----------------------------------------------------------
