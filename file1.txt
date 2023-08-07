@@ -1,1 +1,28 @@
 Hello 
+
+import socket
+s=socket.socket()
+host=socket.gethostname()
+port=12348
+
+s.connect((host,port))
+s.send(b"Hi India")
+message=s.recv(100)
+print(message)
+s.close()
+
+-----------------------
+
+import socket
+s=socket.socket()
+host=socket.gethostname()
+port=12348
+
+s.connect((host,port))
+s.send(b"I am client-2")  #b stands for binary
+message=s.recv(100)
+print(message)
+s.close()
+
+---------------------------------
+
