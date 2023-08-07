@@ -1,3 +1,779 @@
 Hi This is my first line
 This is my second line
 
+--------------------------------------------------------------------------------------------
+
+# # # a=int(input("enter your first number:"))
+# # # b=int(input("enter your second number:"))
+# # # # print(a+b)
+# # # #
+# # # # print(a-b)
+# # # # print(a*b)
+# # # # print(a/b)
+# # #
+# # # print(f"Addition of {a} and {b} is {a+b}")
+# # # print(f"Subtraction of {a} and {b} is {a-b}")
+# # # print(f"Multiplication of {a} and {b} is {a*b}")
+# # # print(f"Division of {a} and {b} is {a/b}")
+# #
+# # # colors=["red","blue","green"]
+# # # print("black" not in colors)
+# # # print("red" not in colors)
+# #
+# #
+# # # # a=0.9
+# # # # b=10
+# # # # c=50
+# # # #
+# # # # print(a or b or c)
+# # #
+# # # # a=25
+# # # # b=25
+# # # # print(id(a))
+# # # # print(id(b))
+# # # # # print(a is b)
+# # # #
+# # # # age=10
+# # # # if age >= 18:
+# # # #     print("You are eligible to Vote")
+# # # # else:
+# # # #     print("You aren't eligible to Vote")
+# # #
+# # # num = int(input("Enter the number:"))
+# # # if num > 0:
+# # #     print("Nm is positive")
+# # # elif num < 0:
+# # #     print("nm i s negatrive")
+# # # else:
+# # #     print("nm is zero")
+# #
+# # # a = int(input("Enter first num: "))
+# # # b = int(input("Enter second num: "))
+# # # c = int(input("Enter third num: "))
+# # #
+# # # if a > b and a > c:
+# # #     largest=a
+# # # elif b > a and b > c:
+# # #     largest=b
+# # # # elif a==b and a > c:
+# # # #     print("A and B is same biggest num")
+# # # # elif b==c and b > a:
+# # # #     print("B and C is biggest number")
+# # # else:
+# # #     largest=c
+# # #     print (f"Among the {a},{b} and {c} {largest} is the biggest number")
+# #
+# # # year=int(input("Enter your year: "))
+# # #
+# # # if year%4==0 and year%100!=0:
+# # #     print(f"{year} is a leap year")
+# # # elif year%4==0 and year%100==0 and year%400!=0:
+# # #     print(f"{year} is not a leap year")
+# # # elif year%4==0 and year%100==0 and year%400==0:
+# # #     print(f"{year} is a leap year")
+# # # else:
+# # #     print(f"{year} is  not a leap year")
+# #
+# # # year=int(input("Enter your year: "))
+# # #
+# # # if year%4==0:
+# # #     if year%100==0:
+# # #         if year%400==0:
+# # #             print(f"{year} is leap year")
+# # #         else:
+# # #             print(f"{year} is not leap year")
+# # #     else:
+# # #         print(f"{year} is leap year")
+# # # else:
+# # #     print(f"{year} is not leap year")
+# #
+# # count=0
+# # while(count<10):
+# #     count+=1
+# #     print(2*count)
+# #
+#
+# # ------------------------------------------------DAY 2----------------------------------
+#
+# # Multiplication Table for entered value
+# # while(True):
+# #     num=int(input("Enter the number: "))
+# #     count=0
+# #     while(count<10):
+# #         count+=1
+# #         print(f"{num} * {count} =", num*count)
+#
+# # Factors of user entered number
+# # num=int(input("Enter the number: "))
+# # count=0
+# # while(num>=count):
+# #     count+=1
+# #     if num%count ==0:
+# #         print(f"{count} is a factor of {num}")
+#
+#
+# # write a program to add all the number
+# # num=int(input("Enter the number: "))
+# # sum = 0
+# # count = 0
+# # while (count < 100):
+# #     count += 1
+# #     sum = sum + count
+# # print("sum of all natural number from 1 to 100 is", sum)
+#
+# # For loop
+#
+# #sum of all numbers from 1 t0 100
+# # num=int(input("Enter the number: "))
+# # sum=0
+# # for i in range(1,num+1):
+# #     sum=sum+i
+# # print(f"Sum of all natural numbers from 1 to {num} is",sum)
+#
+# #factorial of number entered by user using for loop and while loop
+# ######Using for loop################
+#
+# # num=int(input("Enter the number: "))
+# # fact=1
+# # for i in range(1,num+1):
+# #     fact=i*fact
+# # print(f"Factorical of {num} using for loop is ",fact)
+# #
+# # #####Using while loop###########
+# # factorial=1
+# # x=1
+# # while(x<num):
+# #     x+=1
+# #     factorial=factorial*x
+# # print(f"Factorial of {num} using while loop is", factorial)
+#
+#
+# # check the user entered number is prime or composite number
+# # num=int(input())
+# # for i in (2,num):
+# #     if num%i ==0:
+# #         print(f"{num} is a composite number")
+# #         break
+# # else:
+# #     print(f"{num} is a prime number")
+#
+# #Right
+# # num = int(input("Enter the number: "))
+# # i = 1
+# # while num > 2:
+# #     i = i + 1
+# #     if num%i ==0:
+# #         print(f"{num} is a composite number")
+# #         break
+# # else:
+# #     print(f"{num} is a prime number")
+#
+#
+# # for i in range(1,6):
+# #     for j in range(1,i+1):
+# #         print("*",end=" ")
+# #     print()
+# #
+#
+# # for i in range(1,9):
+# #     for j in range(1,i+1):
+# #
+# #         print(i*j,end=" ")
+# #
+# #     print()
+# #
+#
+# # sum=10
+# # print(type(sum))
+#
+# # mylist=[1,3,5,6]
+# # print(mylist[1:])
+#
+# # mylist= ["red","green","blue"]
+# #
+# # for i in mylist:
+# #     print(f"The length of {i} is", len(i))
+#
+# # fruits = ["Apple","Banana","Orange","Pineapple","Guava"]
+# # new_fruits=[]
+# #
+# # for i in fruits:
+# #     if len(i) == 5 :
+# #         new_fruits.append(i)
+# # print(new_fruits)
+#
+# # sum=0
+# # my_list=[1,2,30,4,5]
+# # for i in my_list:
+# #     sum=sum+i
+# # print(sum)
+#
+# # --------------------------------DAY 3----------------------------------------------------
+# #Natural number dynamically
+# # no_of_elements=int(input("enter the no of elements: "))
+# # i=0
+# # mylist=[]
+# # while i < no_of_elements:
+# #     i+=1
+# #     mylist.append(i)
+# # print(mylist)
+#
+# #square of the elements
+# # mylist=[1,2,3,4,5]
+# # squarelist=[]
+# # for i in mylist:
+# #     i=i**2
+# #     squarelist.append(i)
+# # print(squarelist)
+#
+# #list to put all the zero are in the end
+# given_list=[10,20,0,30,0,0,40,0,50]
+# new_list1=[]
+# new_list2=[]
+#
+# for i in given_list:
+#     if i != 0:
+#         new_list1.append(i)
+#     else:
+#         new_list2.append(i)
+# modified_list=new_list1+new_list2
+# #print(f"modified list =",new_list2)
+# print(f"New list",modified_list)
+# given_list.sort(reverse=True)
+# print(f"Without modified list =",given_list)
+#
+
+# Tuple
+# myli=[]
+# mytuple=(1,2,3,"hi",2)
+# print(mytuple.count(3))
+# print(mytuple.index(2))
+# for i in mytuple:
+#     if i == 2:
+#         mytuple.index(2)
+#         myli.append(i)
+# print(myli)
+
+# mytyup=1,
+# print(type(mytyup))
+
+#Dictionary
+
+#who has scored maximum marks
+# student={"Ram": 90,"Shyam": 93, "Krishna": 95 }
+# high=max(student.values())
+# for key,values in student.items():
+#     if values == high:
+#         print(f"{key} has scored more marks {values}")
+
+### Create a dictionary dynamically 3 countires as key and 3 capitals as values
+
+# details={}
+# n=int(input("HOw many data nees to be entered: "))
+# for i in range(n):
+#     key=input("Country: ")
+#     values=input("capital: ")
+#     details[key]=values
+# print(details)
+
+#################### Functions #################
+
+# def isPrime(n):
+#     flag = True
+#     for i in range(2,n):
+#         if n % i ==0:
+#             flag = False
+#     return flag
+# n=int(input("Enter da : "))
+# output=isPrime(n)
+# print(output)
+# if output == True:
+#     print("Prime")
+# else:
+#     print("Compo")
+# ---------------------------------
+#Assginment - 1
+# mytuple=(1,2,"hello",4,4,5,"hello",5,"hello")
+# mylist=[]
+# a = 0
+# for i in mytuple:
+#
+# #     if i == "hello":
+# #         mylist.append(a)
+# #     a += 1
+# # print(f"list consist of indexes of hello is ", mylist)
+# # ----------------------------------------#Day 4 ------------------------------------------
+#
+# #Discount using dictionary
+# # original_prices={'Apple': 240,'orange':200,'Banana':80}
+# # discounted_prices={}
+# # for k,v in original_prices.items():
+# #     discounted_prices[k]=int((original_prices[k]*0.9))
+# # print(f"discounted price= ", discounted_prices)
+#
+# # Countries and capital by swapping the keys and values; swapping"
+# # mydict={"india":"delhi","pakistan":"islambad","england":"london"}
+# # newdict={}
+# # for k,v in mydict.items():
+# #     newdict[v]=k
+# # print(newdict)
+#
+# ###Write a function to find a area of rectangle and perimeter of rectangle it takes l and b as input
+# # def rect(l,b):
+# #     rectangle_area = l * b
+# #     perimeter = 2 * (l+b)
+# #     return rectangle_area,perimeter
+# #
+# # rectangle_area,perimeter = rect(2,8)
+# # print(rectangle_area)
+# # print(perimeter)
+#
+#
+#
+# def circle(r):
+#     '''This function takes one input and gives you the value of cirle circumferenc and area'''
+#     are= 3.142*r**2
+#     cicum=2*3.142*r
+#     return are,cicum
+# are,cicum = circle(1)
+# # print((are))
+# # print(cicum)
+# print(circle.__doc__)
+# print(help(circle))
+# -------------------------------------------------------
+
+# print(list(map(lambda x : x**2, [1,2,3])))
+
+# input=[66,77,32,19,88,95,50]
+# print(list(filter(lambda x : True if x >= 50 else False,input)))
+
+# names=["Amit","Sumit","Raj","Mohammad"]
+# print(list(map(lambda x : len(x), names)))
+
+# fruits=["Apple","Banan","Apricot","Manog","Orange"]
+# print(list(filter(lambda x: True if x.startswith("A") else False,fruits)))
+''' dafdalfa'''
+# """ dfalfjlsadf """
+# n="Ramnivas"
+# print(n.startswith("R"))
+
+# def add(a,b):
+#     '''Thisi si a tiring'''
+#     c=a+b
+#     return c
+# print(add.__doc__)
+# print(help(add))
+
+# -------------------------------------------
+#
+# f=open('file2.txt','w+')
+# f.write('python c++ Hellow world')
+# f.seek(5,0)
+# print(f.tell())
+# # content=f.read()
+# print(content)
+# f.close()
+
+# f = open(r'C:\Users\azuser\Desktop\Hi.txt','r')
+# contnet=f.read()
+# print(contnet)
+# f.close()
+import pickle
+# player = {'name':'dhoni', 'age': 43 , 'team' : 'csk'}
+# f=open('data.dat','wb')
+# pickle.dump(player,f)
+# f.close
+# f=open('data.dat','rb')
+# content=pickle.load(f)
+# print(content)
+# f.close()
+
+# -----------------------------------------DAY-5-----------------------------------------------
+
+#CREATE A LIST OF FIRST 25 NATURAL NUMBERS
+# mylist=[]
+# n=int(input("Enter the number: "))
+# for i in range(1,n+1):
+#     i=i**2
+#     mylist.append(i)
+# print(mylist)
+#lIst comprehension
+# mylist=[x**2 for x in range(1,26)]
+# print(mylist)
+#convert the list to positive value
+# vec=[-4,-2,0,2,4]
+# new_list=[abs(i) for i in vec]
+# print(new_list)
+
+#Create a list of all odd number from 1 to 11
+# n=int(input("Enter the number: "))
+# odd_num=[i for i in range(0,n+1) if i%2 !=0]
+# print(odd_num)
+
+#creat a square of list of all odd number from 1 to 10
+# n=int(input("Enter the number: "))
+# odd_Square=[i**2 for i in range(1,n+1) if i%2!=0]
+# print(odd_Square)
+
+# num=[1,99,22,10,53]
+# mylist=[]
+# for i in num:
+#     if i%2 ==0:
+#         # i="Even"
+#         mylist.append("Even")
+#     else:
+#         # i="Odd"
+#         mylist.append("Odd")
+# print(mylist)
+
+# lis=["even" if x%2 ==0 else "odd" for x in num]
+# print(lis)
+# even=[]
+# odd=[]
+# res=[even.append(i) if i%2==0 else odd.append(i) for i in range(0,10)]
+# print(even)
+# print(odd)
+#
+# dict={}
+# dict1={x:x**2 for x in range(1,6)}
+# print(dict1)
+
+# num_list=[1,1,7,3,5,3,2,9,5,1,3,2,2,2,2]
+# dict={x:num_list.count(x) for x in num_list}
+# print(dict)
+#
+# names=["deepak","reena","deepak","meena","john","john","reena","deepak"]
+# dict={x:names.count(x) for x in names}
+# print(dict)
+# #
+# words=['data','science','machine','learning']
+# # print({x:len(x) for x in words})
+# #
+# # import json
+# # x =  '{"name":"John", "age":30, "city":"New York"}'
+# # print(type(x))
+# # y=json.loads(x)
+# # print(y)
+# # print(type(y))
+# # z=json.dumps(y)
+# # print(z)
+# # print(type(z))
+#
+# #Write a program to find LCM of 2 numbers
+#
+#
+# dict1 = { "class": { "Ram": { "marks": { "Physics":70, "History": 80 }}}}
+# print(dict1["class"]["Ram"]["marks"]["Physics"] )
+# # print(f"{dict1.keys} marks is {dict1.values}")
+#
+#
+#
+# # Write a function that takes 2 lists as input and return a dictionary where content of list1 is key and corresponding element of list is value
+#
+#
+# list1 = ["India" , "England", "Spain"]
+#
+# list2 = ["Delhi","London","Madrid"]
+#
+#
+# def myfunc(a,b):
+#
+#     dict_country={}
+#     for i in range(len(list1)):
+#
+#         dict_country[i]=list2[i]
+#     print(dict_country)
+#
+# myfunc(list1,list2)
+
+#
+#import math
+# class circle:
+#     def __init__(self,r):
+#         self.r=r
+#
+#     def area(self):
+#         a = 3.14*self.r*self.r
+#         return a
+#     def circum(self):
+#         a = 2*3.14*self.r
+#         return a
+#
+# obj1=circle(5)
+# print(obj1.area())
+# print(obj1.circum())
+
+# Wrong
+# class cuboid:
+#     def __init__(self,l,b,h):
+#         print("This is a constructor")
+#         self.l=l
+#         self.b=b
+#         self.h=h
+#
+#     def area(self):
+
+
+#         c=2*((self.l*self.b)+(self.b*self.h)+(self.l*self.h))
+#         return c
+#     def volume(self):
+#         c = (self.l+self.b+self.h)
+# obj1=cuboid(5,6,8)
+# print(obj1.area())
+# print(obj1.volume())
+#
+# class circle:
+#     x = 100
+#     def __init__(self,radius):
+#         print("I am the constructor")
+#         self.radius = radius
+#     def setRadius(self,new):
+#         self.radius = new
+#     def getRadius(self):
+#         return self.radius
+#     @classmethod
+#     def setX(cls,new):
+#         cls.x=new
+#     def getx(self):
+#         return self.x
+#
+# c1 = circle(10)
+# c2 = circle(20)
+# c1.setRadius(25)
+# c1.setX(200)
+# print(c1.getRadius())
+# print(c2.getRadius())
+#
+#
+#
+# def xyz():
+#     x=40
+#     abc()
+#     print(x)
+# def abc():
+#     a=32
+#     x=10
+# xyz()
+
+# ------------------------------------------------------DAY6------------------------------------------------------
+#
+# [9:09 AM] Prasham (Guest)
+#
+# Write a class called bank that has two methods calculateSI and calculateAmount
+#
+# [9:09 AM] Prasham (Guest)
+#
+# The constructor takes 3 parameters P,R,T
+#
+# [9:09 AM] Prasham (Guest)
+#
+# and methods don't take any parameters
+#
+# [9:10 AM] Prasham (Guest)
+#
+# create an object of this class and call the methods to get the SimpleINterest and the amount
+#######################
+# class bank:
+#
+#
+#     def __init__(self,P,R,T):
+#         print("Constructor is called: ")
+#         self.P=P
+#         self.R=R
+#         self.T=T
+#
+#     def simple(self):
+#         return (self.P*self.R*self.T)/100
+#
+#     def amount(self):
+#         # si=self.simple()
+#
+#         return self.P+self.simple()
+# obj1=bank(100,10,1)
+# print(obj1.amount())
+# print(obj1.simple())
+
+# Write 2 methods one getter for principal and another is setter for Principal
+
+#
+# class bank:
+#     def __init__(self,p,r,t):
+#         self.p=p
+#         self.r=r
+#         self.t=t
+#     def calsi(self):
+#
+
+
+# Inheritance
+# class arithematic:
+#     def __init__(self,a,b):
+#         self.a=a
+#         self.b=b
+#         print("I am a arithematic")
+#
+#     def add(self):
+#         c=self.a+self.b
+#         return c
+#     def substract(self):
+#         c=self.a-self.b
+#         return c
+#
+# class myarithematic(arithematic):
+#     def __init__(self,a,b):
+#         print("I am a My arithematic")
+#         super().__init__(a,b)
+#     def product(self):
+#         c=self.a*self.b
+#         return c
+#
+#
+# b=myarithematic(20,5)
+# print(b.add())
+# print(b.product())
+# print(b.substract())
+
+
+# e=[1,2,3]
+# try:
+#   print(e[100])
+#
+# except IndexError:
+#     print("Index is not available")
+#
+# class AgeException(Exception):
+#     def __init__(self,msg):
+#         self.msg = msg
+#
+#
+# try:
+#     age = int(input("Enter your age: "))
+#     if age > 60 or age<18:
+#         raise AgeException("This is not a correct age to participate")
+#
+# except ZeroDivisionError:
+#     print("This is Zerodivision error")
+# except ValueError:
+#     print("Entered value is incorrect")
+# except KeyError:
+#     print("Key is wrong")
+# except AgeException as a:
+#     print(a.msg)
+# except:
+#     print("some other error")
+# else:
+#     print(f"This is correct age {age}")
+# finally:
+#     print("Game over")
+
+# a=1.0
+# b=5
+#
+# c=5
+# d=b/c
+# print(id(d))
+# print(id(a))
+# print(d)
+
+####SHallow copy
+# import copy
+# x=[[1,2,3],[4,5,6],[7,8,9]]
+#
+# y=copy.copy(x)
+# print(id(y[2]))
+# # print(y)
+# print(id(x[2]))
+
+# def deco(fun1):
+#     def inner():
+#         print("*********************")
+#         fun1()
+#         print("/////////////////////////////")
+#     return inner
+# @deco
+# def demo():
+#     print("This is decorator")
+#
+# demo()
+
+
+# def outer(fun1):
+#     def inner():
+#         print("***********************")
+#         b=2+fun1()
+#         fun1()
+#         return b
+#     return inner
+#
+#
+# @outer
+# def add():
+#     return 10
+# y=add()
+# print(y)
+
+# class myrange:
+#     def __init__(self,limit):
+#         self.limit=limit
+#         self.x=0
+#     def __iter__(self):
+#         return self
+#     def __next__(self):
+#         self.x=self.x+2
+#         if self.x>self.limit:
+#             raise StopIteration
+#         return self.x
+#
+# for i in myrange(10):
+#     print(i,end=" ")
+
+# def mygen(x,y):
+#     while x < y:
+#         yield x
+#         x = x + 1
+#
+# def func():
+#     g=mygen(1,20)
+#     return g
+#
+# result=func()
+# for i in result:
+#     print(i,end=' ')
+#
+# def newgen(x,y):
+#     while x < y:
+#         yield x
+#         x = x + 1
+# def func():
+#     a=newgen(1,10)
+#
+#     return a
+# result=func()
+# num=int(input("Enter the number: "))
+# for i in result:
+#
+#     print(i*num,end=' ')
+#
+#
+#
+#
+
+
+def newgen(x):
+    y=1
+    while y<=10:
+        yield y*x
+        y=y+1
+
+for i in newgen(3):
+    print(i,end=" ")
+
+
+
+# ----------------------------------------------------------------
+
+
+
+
+
+
